@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align Self</title>
+    <link rel="stylesheet" href="../flexbox-tarcio/css/reset.css" />
+
+    <style>
+      .container {
+        display: flex;
+        height: 100vh;
+        align-items: flex-start;
+      }
+
+      .container div:nth-child(2) {
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </body>
+</html>
